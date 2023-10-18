@@ -51,9 +51,7 @@ const App = () => {
         <h1>Simple Calcultor App</h1>
       </div>
       <form>
-        <p ref={resultRef}>
-          {result}
-        </p>
+       
         <input
           pattern="[0-9]"
           ref={inputRef}
@@ -68,6 +66,12 @@ const App = () => {
         <button onClick={resetInput}>Reset Input</button> 
         <button onClick={resetResult}>Reset Result</button> 
       </form>
+      <div className="display-result">
+        <p ref={resultRef}>
+          <h2>Result: {result}</h2>
+          
+        </p>
+      </div>
     </div>
   );
 }

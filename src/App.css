@@ -21,3 +21,8 @@ button:nth-last-child(2), button:nth-last-child(1) {
   background: rgb(124, 24, 6);
   color: white;
 }
+.display-result {
+  color: brown;
+  margin-top: auto;
+  text-align:justify;
+}
